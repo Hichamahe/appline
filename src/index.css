@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    font-weight: 500;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: 0.2s;
+}
+
+*{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+link[rel="icon"] {
+  border-radius: 50%; 
+    width: 150px;
+  height: 150px;
+}
